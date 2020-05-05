@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./Mithun Balasubramanian_files/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link href="./Mithun Balasubramanian_files/css2" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #1d1d1c;
+            color: white;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        #title {
+            margin-top: 8rem;
+            margin-left: 5rem;
+        }
+
+        .links, .card-link {
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+            outline: none;
+        }
+        .links {
+            background-color: #1d1d1c;
+            color: white;
+            height: 50px;
+            width: 100px;
+            font-size: larger;
+            text-align: center;
+        }
+        
+        .card-link {
+            background-color: #1d1d1c;
+            color: white;
+        }
+
+        .btns {
+            text-align: center;
+            height: 50px;
+            width: auto;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .links:hover,.card-link:hover {
+            background-color: white;
+            color: #1d1d1c;
+        }
+
+        #container{
+            width: 90%; 
+            margin:auto;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            margin-top: 10rem;
+        }
+
+        .project-card{
+            width:40rem;
+            height:auto;
+            border:1px solid white;
+            margin-top: 10px;
+        }
+
+        .titles {
+            margin: 1rem;
+        }
+    </style>
+    <title>Mithun Balasubramanian</title>
+</head>
+  <body>
+    <div id="title">
+        <h1>Mithun Balasubramanian</h1>
+        <div>
+            <button class="links" onclick="window.location.href = &#39;https://github.com/iiAviator&#39;;">Github</button>
+            <button class="links" onclick="window.location.href = &#39;https://linkedin.com/in/iiAviator&#39;;">Linkedin</button>
+        </div>
+        <div id="container">
+            <div class="project-card">
+                <h3 class="titles">Discord Translate Bot</h3>
+                <h5 class="titles">Simple Discord that can translate text by using discord.py and the Google Translate API</h5>
+                <div class="btns">
+                    <button class="card-link" onclick="window.location.href = &#39;https://github.com/iiAviator/DiscordTranslateBot&#39;;">Source</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3 class="titles">OpenSourcePython</h3>
+                <h5 class="titles">A collection of open source learning resources that I collected to learn Python.</h5>
+                <div class="btns">
+                    <button class="card-link" onclick="window.location.href = &#39;http://github.com/iiAviator/OpenSourcePython&#39;;">Source</button>
+                    <button class="card-link" onclick="window.location.href = &#39;http://mithunb.com/OpenSourcePython/&#39;;">Demo</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3 class="titles">AviateCSS</h3>
+                <h5 class="titles">A css library that I created to help in simple css for simple projects. Best used with Skeleton css.</h5>
+                <div class="btns">
+                    <button class="card-link" onclick="window.location.href = &#39;https://github.com/iiAviator/AviateCSS&#39;;">Source</button>
+                    <button class="card-link" href="AviateCSS/docs.html">Docs</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./Mithun Balasubramanian_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./Mithun Balasubramanian_files/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="./Mithun Balasubramanian_files/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
