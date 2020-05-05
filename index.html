@@ -28,6 +28,45 @@
             height: 50px;
             width: 100px;
             font-size: larger;
+            text-align: center;
+        }
+        
+        .card-link {
+            background-color: #1d1d1c;
+            color: white;
+        }
+
+        .btns {
+            text-align: center;
+            height: 50px;
+            width: auto;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .links:hover,.card-link:hover {
+            background-color: white;
+            color: #1d1d1c;
+        }
+
+        #container{
+            width: 90%; 
+            margin:auto;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            margin-top: 10rem;
+        }
+
+        .project-card{
+            width:40rem;
+            height:auto;
+            border:1px solid white;
+            margin-top: 10px;
+        }
+
+        .titles {
+            margin: 1rem;
         }
     </style>
     <title>Mithun Balasubramanian</title>
@@ -39,6 +78,33 @@
             <button class="links" onclick="window.location.href = 'https://github.com/iiAviator';">Github</button>
             <button class="links" onclick="window.location.href = 'https://linkedin.com/in/iiAviator';">Linkedin</button>
         </div>
+        <div id="container">
+            <div class="project-card">
+                <h3 class="titles">Discord Translate Bot</h3>
+                <h5 class="titles">Simple Discord that can translate text by using discord.py and the Google Translate API</h4>
+                <div class="btns">
+                    <button class="card-link" onclick="window.location.href = 'https://github.com/iiAviator/DiscordTranslateBot';">Source</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3 class="titles">OpenSourcePython</h3>
+                <h5 class="titles">A collection of open source learning resources that I collected to learn Python.</h4>
+                <div class="btns">
+                    <button class="card-link" onclick="window.location.href = 'http://github.com/iiAviator/OpenSourcePython';">Source</button>
+                    <button class="card-link" onclick="window.location.href = 'http://mithunb.com/OpenSourcePython/';">Demo</button>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3 class="titles">AviateCSS</h3>
+                <h5 class="titles">A css library that I created to help in simple css for simple projects. Best used with Skeleton css.</h4>
+                <div class="btns">
+                    <button class="card-link" onclick="window.location.href = 'https://github.com/iiAviator';">Source</button>
+                    <button class="card-link" onclick="window.location.href = 'https://github.com/iiAviator';">Docs</button>
+                </div>
+            </div>
+            
+        </div>
+        
     </div>
 
     <!-- Optional JavaScript -->
