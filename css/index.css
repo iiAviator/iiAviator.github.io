@@ -1,0 +1,90 @@
+:root {
+  --main-bg: #0d1f22;
+  --platinum: #eaeaea;
+  --opal: #93b7be;
+  --jet: #363636;
+  --gunmetal: #242f40;
+}
+
+body {
+  background-color: var(--gunmetal);
+  color: var(--platinum);
+  font-family: "Raleway", sans-serif;
+}
+
+.btns-div {
+  text-align: center;
+  height: 50px;
+  width: auto;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.links:hover,
+.card-link:hover {
+  background-color: white;
+  color: #1d1d1c;
+}
+
+.links,
+.card-link {
+  background-color: var(--gunmetal);
+  color: var(--platinum);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+.links {
+  height: auto;
+  width: auto;
+  border-radius: 10%;
+}
+
+.card-link {
+  background-color: var(--gunmetal);
+  color: var(--platinum);
+}
+
+#title {
+  margin-top: 8rem;
+  margin-left: 5rem;
+}
+
+#container {
+  width: 90%;
+  margin-left: 5;
+  margin-right: 5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+
+.project-card {
+  width: 40rem;
+  height: auto;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-bottom: 2rem;
+}
+
+.titles {
+  margin: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
