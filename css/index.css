@@ -17,7 +17,7 @@ body {
   height: 50px;
   width: auto;
   margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .links:hover,
@@ -47,7 +47,7 @@ body {
 }
 
 #title {
-  margin-top: 8rem;
+  margin-top: 3rem;
   margin-left: 5rem;
 }
 
@@ -58,7 +58,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 10rem;
+  margin-top: 1.5rem;
 }
 
 .project-card {
