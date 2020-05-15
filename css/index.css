@@ -47,7 +47,7 @@ body {
 }
 
 #title {
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-left: 5rem;
 }
 
@@ -58,7 +58,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 1.5rem;
+  margin-top: 10rem;
 }
 
 .project-card {
@@ -71,6 +71,15 @@ body {
 
 .titles {
   margin: 1rem;
+}
+
+#footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
