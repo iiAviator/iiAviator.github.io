@@ -1,538 +1,97 @@
-<!DOCTYPE html>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-  <head>
-	  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-166754586-1');
-</script>
-    <title>Mithun Balasubramanian</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
-  </head>
-  <body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Header -->
-      <header id="header">
-        <div class="content">
-          <div class="inner">
-            <h1>Mithun Balasubramanian</h1>
-            <p>
-              I am a self taught developer who is currently working on learning
-              data science and Java.
-            </p>
-            <ul class="icons">
-              <li></li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/iiaviator/"
-                  target="_blank"
-                  class="icon brands fa-linkedin"
-                  ><span class="label">Linkedin</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://github.com/iiAviator"
-                  target="_blank"
-                  class="icon brands fa-github"
-                  ><span class="label">GitHub</span></a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#intro">About</a></li>
-            <li><a href="#work">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <!--<li><a href="#elements">Elements</a></li>-->
-          </ul>
-        </nav>
-      </header>
-
-      <!-- Main -->
-      <div id="main">
-        <!-- Intro -->
-        <article id="intro">
-          <h2 class="major">About</h2>
-          <p>
-            My name is Mithun, I am an aspiring developer based in Dallas,
-            Texas. Ever since I started programming when I was a child, I was
-            always interested in making my life easier through different types
-            of applications. This interest expanded with me through high school
-            where I took various programming classes and I started going to
-            popular contests both online and offline for programming. I started
-            in Python, moved up to Javascript and then started learning Data
-            Science using Python and Java. Here are a few
-            <a href="#work">projects</a> of mine.
-          </p>
-          <p>
-            My skills include:
-          </p>
-          <ul>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Git and Github</li>
-            <li>Java</li>
-          </ul>
-        </article>
-
-        <!-- Work -->
-        <article id="work">
-          <h2 class="major">Projects</h2>
-          <!--
-          <table style="width: 100%;">
-            <tr>
-              <th>Firstname</th>
-              <th>Lastname</th>
-              <th>Age</th>
-            </tr>
-            <tr>
-              <td>Jill</td>
-              <td>Smith</td>
-              <td>50</td>
-            </tr>
-            <tr>
-              <td>Eve</td>
-              <td>Jackson</td>
-              <td>94</td>
-            </tr>
-		  </table>
-		-->
-          <div class="project-card">
-            <h3>Covid19Stats Discord Bot</h3>
-            <p>
-              A discord bot made using Node.js and discord.js that returns
-              statistics about the Covid19 Pandemic.
-            </p>
-            <div class="btns-div">
-              <button
-                class="card-link"
-                onclick="window.location.href = 'https://github.com/iiAviator/Covid19Stats';"
-              >
-                Source
-              </button>
-              <button
-                class="card-link"
-                onclick="window.location.href = 'https://mithunb.com/Covid19Stats/'"
-              >
-                Docs
-              </button>
+<!-- Mithun Balasubramanian -->
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Mithun Balasubramanian</title>
+      <!-- Project CSS -->
+      <link rel="stylesheet" href="style.css">
+      <style>
+         @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+         body {
+         font-family: 'Staatliches', sans-serif;
+         }
+      </style>
+      <!-- Font Awesome Icons -->
+      <script src="https://kit.fontawesome.com/6bd4fbb2a6.js" crossorigin="anonymous"></script>
+   </head>
+   <body class="bg-lightdark text-lavender">
+      <div class="text-center">
+         <main>
+            <div id="header" class="flex justify-start flex-col mx-10 py-10">
+               <h1 class="text-7xl font-extrabold">Mithun Balasubramanian</h1>
+               <h1 class="font-bold text-4xl my-3">Self Taught Developer & High School Student</h1>
+               <div>
+                  <a target="_blank" href="https://www.linkedin.com/in/iiaviator"><i class="fab fa-linkedin fa-3x"></i></a>          
+                  <a target="_blank" href="https://github.com/iiAviator"><i class="mx-2 fab fa-github-square fa-3x"></i></a>         
+               </div>
             </div>
-          </div>
-          <hr />
-	<div class="project-card">
-            <h3>LiveUpdate</h3>
-            <p>
-              Real time updating single connection data chart using websockets. Built for my projects using the Raspberry Pi. Meant to be used for development, not production.
-            </p>
-            <div class="btns-div">
-              <button
-                class="card-link"
-                onclick="window.location.href = 'https://github.com/iiAviator/LiveUpdate';"
-              >
-                Source
-		    </button>
-            </div>
-          </div>
-<hr>
-          <div style="margin-top: 1rem;">
-            <h3>Discord Translate Bot</h3>
-            <p>
-              Discord bot that can translate text by using discord.py and the
-              Google Translate API
-            </p>
-            <div class="btns-div">
-              <button
-                class="card-link"
-                onclick="window.location.href = 'https://github.com/iiAviator/DiscordTranslateBot';"
-              >
-                Source
-              </button>
-            </div>
-			<hr />
-			<div style="margin-top: 1rem;">
-				<h3>AviateCSS</h3>
-				<p>
-					A css library that I created to help in simple CSS for simple projects. Best used with Skeleton CSS.
-				</p>
-				<div class="btns-div">
-                    <button class="card-link" onclick="window.location.href = 'https://github.com/iiAviator/AviateCSS';">Source</button>
-                    <button class="card-link" onclick="window.location.href = 'https://mithunb.com/AviateCSS/'">Docs</button>
-                </div>
-          </div>
-        </article>
-        <!-- Contact -->
-        <article id="contact">
-          <h2 class="major">Contact</h2>
-          <p>
-            You can reach me at
-            <a href="mailto:mithun@mithunb.com">mithun@mithunb.com</a> or by
-            clicking the links below.
-          </p>
-          <ul class="icons">
-            <li></li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/iiaviator/"
-                target="_blank"
-                class="icon brands fa-linkedin"
-                ><span class="label">Linkedin</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/iiAviator"
-                target="_blank"
-                class="icon brands fa-github"
-                ><span class="label">GitHub</span></a
-              >
-            </li>
-          </ul>
-        </article>
-
-        <!-- Elements -->
-        <article id="elements">
-          <h2 class="major">Elements</h2>
-
-          <section>
-            <h3 class="major">Text</h3>
-            <p>
-              This is <b>bold</b> and this is <strong>strong</strong>. This is
-              <i>italic</i> and this is <em>emphasized</em>. This is
-              <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-              This is <u>underlined</u> and this is code:
-              <code>for (;;) { ... }</code>. Finally,
-              <a href="#">this is a link</a>.
-            </p>
-            <hr />
-            <h2>Heading Level 2</h2>
-            <h3>Heading Level 3</h3>
-            <h4>Heading Level 4</h4>
-            <h5>Heading Level 5</h5>
-            <h6>Heading Level 6</h6>
-            <hr />
-            <h4>Blockquote</h4>
-            <blockquote>
-              Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
-              sagittis eget tempus euismod. Vestibulum ante ipsum primis in
-              faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
-              ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
-              faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
-            </blockquote>
-            <h4>Preformatted</h4>
-            <pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-          </section>
-
-          <section>
-            <h3 class="major">Lists</h3>
-
-            <h4>Unordered</h4>
-            <ul>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Sagittis adipiscing.</li>
-              <li>Felis enim feugiat.</li>
-            </ul>
-
-            <h4>Alternate</h4>
-            <ul class="alt">
-              <li>Dolor pulvinar etiam.</li>
-              <li>Sagittis adipiscing.</li>
-              <li>Felis enim feugiat.</li>
-            </ul>
-
-            <h4>Ordered</h4>
-            <ol>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Etiam vel felis viverra.</li>
-              <li>Felis enim feugiat.</li>
-              <li>Dolor pulvinar etiam.</li>
-              <li>Etiam vel felis lorem.</li>
-              <li>Felis enim et feugiat.</li>
-            </ol>
-            <h4>Icons</h4>
-            <ul class="icons">
-              <li>
-                <a href="#" class="icon brands fa-twitter"
-                  ><span class="label">Twitter</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-instagram"
-                  ><span class="label">Instagram</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands fa-github"
-                  ><span class="label">Github</span></a
-                >
-              </li>
-            </ul>
-
-            <h4>Actions</h4>
-            <ul class="actions">
-              <li><a href="#" class="button primary">Default</a></li>
-              <li><a href="#" class="button">Default</a></li>
-            </ul>
-            <ul class="actions stacked">
-              <li><a href="#" class="button primary">Default</a></li>
-              <li><a href="#" class="button">Default</a></li>
-            </ul>
-          </section>
-
-          <section>
-            <h3 class="major">Table</h3>
-            <h4>Default</h4>
-            <div class="table-wrapper">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Item One</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Two</td>
-                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Three</td>
-                    <td>Morbi faucibus arcu accumsan lorem.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Four</td>
-                    <td>Vitae integer tempus condimentum.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Five</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td colspan="2"></td>
-                    <td>100.00</td>
-                  </tr>
-                </tfoot>
-              </table>
-            </div>
-
-            <h4>Alternate</h4>
-            <div class="table-wrapper">
-              <table class="alt">
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Item One</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Two</td>
-                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Three</td>
-                    <td>Morbi faucibus arcu accumsan lorem.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Four</td>
-                    <td>Vitae integer tempus condimentum.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item Five</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td colspan="2"></td>
-                    <td>100.00</td>
-                  </tr>
-                </tfoot>
-              </table>
-            </div>
-          </section>
-
-          <section>
-            <h3 class="major">Buttons</h3>
-            <ul class="actions">
-              <li><a href="#" class="button primary">Primary</a></li>
-              <li><a href="#" class="button">Default</a></li>
-            </ul>
-            <ul class="actions">
-              <li><a href="#" class="button">Default</a></li>
-              <li><a href="#" class="button small">Small</a></li>
-            </ul>
-            <ul class="actions">
-              <li>
-                <a href="#" class="button primary icon solid fa-download"
-                  >Icon</a
-                >
-              </li>
-              <li>
-                <a href="#" class="button icon solid fa-download">Icon</a>
-              </li>
-            </ul>
-            <ul class="actions">
-              <li><span class="button primary disabled">Disabled</span></li>
-              <li><span class="button disabled">Disabled</span></li>
-            </ul>
-          </section>
-
-          <section>
-            <h3 class="major">Form</h3>
-            <form method="post" action="#">
-              <div class="fields">
-                <div class="field half">
-                  <label for="demo-name">Name</label>
-                  <input
-                    type="text"
-                    name="demo-name"
-                    id="demo-name"
-                    value=""
-                    placeholder="Jane Doe"
-                  />
-                </div>
-                <div class="field half">
-                  <label for="demo-email">Email</label>
-                  <input
-                    type="email"
-                    name="demo-email"
-                    id="demo-email"
-                    value=""
-                    placeholder="jane@untitled.tld"
-                  />
-                </div>
-                <div class="field">
-                  <label for="demo-category">Category</label>
-                  <select name="demo-category" id="demo-category">
-                    <option value="">-</option>
-                    <option value="1">Manufacturing</option>
-                    <option value="1">Shipping</option>
-                    <option value="1">Administration</option>
-                    <option value="1">Human Resources</option>
-                  </select>
-                </div>
-                <div class="field half">
-                  <input
-                    type="radio"
-                    id="demo-priority-low"
-                    name="demo-priority"
-                    checked
-                  />
-                  <label for="demo-priority-low">Low</label>
-                </div>
-                <div class="field half">
-                  <input
-                    type="radio"
-                    id="demo-priority-high"
-                    name="demo-priority"
-                  />
-                  <label for="demo-priority-high">High</label>
-                </div>
-                <div class="field half">
-                  <input type="checkbox" id="demo-copy" name="demo-copy" />
-                  <label for="demo-copy">Email me a copy</label>
-                </div>
-                <div class="field half">
-                  <input
-                    type="checkbox"
-                    id="demo-human"
-                    name="demo-human"
-                    checked
-                  />
-                  <label for="demo-human">Not a robot</label>
-                </div>
-                <div class="field">
-                  <label for="demo-message">Message</label>
-                  <textarea
-                    name="demo-message"
-                    id="demo-message"
-                    placeholder="Enter your message"
-                    rows="6"
-                  ></textarea>
-                </div>
-              </div>
-              <ul class="actions">
-                <li>
-                  <input type="submit" value="Send Message" class="primary" />
-                </li>
-                <li><input type="reset" value="Reset" /></li>
-              </ul>
-            </form>
-          </section>
-        </article>
+         </main>
       </div>
-
-      <!-- Footer -->
-      <footer id="footer">
-        <p class="copyright">
-          &copy; Mithun Balasubramanian. Design:
-          <a href="https://html5up.net">HTML5 UP</a>.
-        </p>
-      </footer>
-    </div>
-
-    <!-- BG -->
-    <div id="bg"></div>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+      <!-- End Main -->
+      <div class="flex flex-row flex-wrap justify-center pt-40">
+         <div class="bg-maroon mx-12 my-12 w-72 h-auto flex flex-col justify-between">
+            <div class="py-3 px-5">
+               <h1 class="text-3xl pb-3">
+                  Covid19Stats Discord Bot          
+               </h1>
+               <h2 class="pb-3 text-xl">
+                  A discord bot made using Node.js and discord.js that returns statistics about the Covid19 Pandemic.           
+               </h2>
+            </div>
+            <div class="px-5 py-3">
+               <a target="_blank" href="https://github.com/iiAviator/Covid19Stats-Discord-Bot"><i class="fab fa-github fa-2x"></i></a>          
+               <a target="_blank" href="http://mithunb.com/Covid19Stats-Discord-Bot/"><i class="mx-2 fas fa-book fa-2x"></i></a>         
+            </div>
+         </div>
+         <!-- End Card -->
+         <div class="bg-maroon mx-12 my-12 w-72 h-auto flex flex-col justify-between">
+            <div class="py-3 px-5">
+               <h1 class="text-3xl pb-3">
+                  Discord Translate Bot          
+               </h1>
+               <h2 class="pb-3 text-xl">
+                  Discord bot that can translate text by using discord.py and the Google Translate API           
+               </h2>
+            </div>
+            <div class="px-5 py-3">
+               <a target="_blank" href="https://github.com/iiAviator/DiscordTranslateBot"><i class="fab fa-github fa-2x"></i></a>          
+            </div>
+         </div>
+         <!-- End Card -->
+         <div class="bg-maroon mx-12 my-12 w-72 h-auto flex flex-col justify-between">
+            <div class="py-3 px-5">
+               <h1 class="text-3xl pb-3">
+                  AviateCSS          
+               </h1>
+               <h2 class="pb-3 text-xl">
+                  A css library that I created to help in simple CSS for simple projects. Best used with Skeleton CSS.           
+               </h2>
+            </div>
+            <div class="px-5 py-3">
+               <a target="_blank" href="https://github.com/iiAviator/AviateCSS"><i class="fab fa-github fa-2x"></i></a>          
+               <a target="_blank" href="https://mithunb.com/AviateCSS/"><i class="mx-2 fas fa-book fa-2x"></i></a>         
+            </div>
+         </div>
+         <!-- End Card -->
+         <div class="bg-maroon mx-12 my-12 w-72 h-auto flex flex-col justify-between">
+            <div class="py-3 px-5">
+               <h1 class="text-3xl pb-3">
+                  LiveUpdate
+               </h1>
+               <h2 class="pb-3 text-xl">
+                  Real time updating single connection data chart using websockets. Built for my projects using the Raspberry Pi. Meant to be used for development, not production.            
+               </h2>
+            </div>
+            <div class="px-5 py-3">
+               <a target="_blank" href="https://github.com/iiAviator/LiveUpdate"><i class="fab fa-github fa-2x"></i></a>          
+            </div>
+         </div>
+         <!-- End Card -->
+      </div>
+      
+      <p class="bottom-0 fixed">© 2021 Mithun Balasubramanian</p>
+   </body>
 </html>
